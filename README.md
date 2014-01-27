@@ -1,6 +1,6 @@
 file-uri-to-path
 ================
-### Convert a file: URI to a file path
+### Convert a `file:` URI to a file path
 [![Build Status](https://travis-ci.org/TooTallNate/file-uri-to-path.png?branch=master)](https://travis-ci.org/TooTallNate/file-uri-to-path)
 
 Accepts a `file:` URI and returns a regular file path suitable for use with the
