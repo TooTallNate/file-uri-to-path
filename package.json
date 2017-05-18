@@ -1,31 +1,19 @@
 {
   "name": "file-uri-to-path",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Convert a file: URI to a file path",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/TooTallNate/file-uri-to-path.git"
-  },
-  "keywords": [
-    "file",
-    "uri",
-    "convert",
-    "path"
-  ],
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "keywords": "convert,file,path,uri",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TooTallNate/file-uri-to-path/issues"
+  "repository": "TooTallNate/file-uri-to-path",
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
   },
-  "homepage": "https://github.com/TooTallNate/file-uri-to-path",
   "devDependencies": {
-    "mocha": "~1.17.1"
-  }
+    "mocha": "^3.4.1"
+  },
+  "files": [
+    "index.js"
+  ]
 }

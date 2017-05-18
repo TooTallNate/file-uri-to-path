@@ -1,5 +1,6 @@
 {
   "file://host/path": "\\\\host\\path",
+  "file:////share/path": "\\\\share\\path",
   "file://localhost/etc/fstab": "\\etc\\fstab",
   "file:///etc/fstab": "\\etc\\fstab",
   "file:///c:/WINDOWS/clock.avi": "c:\\WINDOWS\\clock.avi",
