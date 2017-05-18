@@ -12,8 +12,5 @@ install:
   - npm install
 
 script:
-  # Output useful info for debugging
-  - node --version
-  - npm --version
   # Run tests
   - npm test
