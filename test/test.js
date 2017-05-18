@@ -19,4 +19,20 @@ describe('file-uri-to-path', () => {
     });
   });
 
+  it('should throw an error for invalid file URIs', () => {
+    try {
+      uri2path();
+      assert.ok(false);
+    } catch (e) {
+      assert.ok(e instanceof TypeError);
+    }
+
+    try {
+      uri2path('');
+      assert.ok(false);
+    } catch (e) {
+      assert.ok(e instanceof TypeError);
+    }
+  });
+
 });
