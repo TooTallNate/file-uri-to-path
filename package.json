@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/TooTallNate/file-uri-to-path",
   "devDependencies": {
-    "mocha": "~1.17.1"
+    "mocha": "3"
   }
 }
