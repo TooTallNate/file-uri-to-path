@@ -1,6 +1,6 @@
 {
   "name": "file-uri-to-path",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Convert a file: URI to a file path",
   "main": "index.js",
   "types": "index.d.ts",
