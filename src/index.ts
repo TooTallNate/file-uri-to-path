@@ -28,7 +28,9 @@ function fileUriToPath(uri: string): string {
 	// As a special case, <host> can be the string "localhost" or the empty
 	// string; this is interpreted as "the machine from which the URL is
 	// being interpreted".
-	if (host === 'localhost') host = '';
+	if (host === 'localhost') {
+		host = '';
+	}
 
 	if (host) {
 		host = sep + sep + host;
