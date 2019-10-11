@@ -1,7 +1,7 @@
 file-uri-to-path
 ================
 ### Convert a `file:` URI to a file path
-[![Build Status](https://travis-ci.org/TooTallNate/file-uri-to-path.svg?branch=master)](https://travis-ci.org/TooTallNate/file-uri-to-path)
+[![Build Status](https://github.com/TooTallNate/file-uri-to-path/workflows/Node%20CI/badge.svg)](https://github.com/TooTallNate/file-uri-to-path/actions?workflow=Node+CI)
 
 Accepts a `file:` URI and returns a regular file path suitable for use with the
 `fs` module functions.
