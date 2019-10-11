@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git://github.com/TooTallNate/file-uri-to-path.git"
   },
+  "engines": {
+    "node": ">= 6"
+  },
   "keywords": [
     "file",
     "uri",
@@ -32,10 +35,8 @@
   },
   "homepage": "https://github.com/TooTallNate/file-uri-to-path",
   "devDependencies": {
-    "@types/es6-promisify": "^5.0.0",
     "@types/mocha": "^5.2.7",
     "@types/node": "^10.5.3",
-    "@types/ws": "^6.0.3",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.1.0",
     "cpy-cli": "^2.0.0",
