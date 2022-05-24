@@ -39,7 +39,7 @@
     "@types/node": "^10.5.3",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.1.0",
-    "cpy-cli": "^2.0.0",
+    "cpy-cli": "^4.1.0",
     "eslint": "5.16.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "4.1.0",
